@@ -1,0 +1,9 @@
+<div class="meta-option">	
+	<h4 class="meta-title"><?php echo $title ?>:</h4>
+	<?php echo jeg_create_metabox_nonce($id); ?>
+	<div class="checkbox-wrapper">		
+		<?php $checked = $default ? "checked='checked'" : '' ; ?> 
+		<input type="checkbox" class="switchtoogle" value="1" name="<?php echo $id; ?>" id="<?php echo $id; ?>" <?php echo $checked; ?> />			
+	</div>
+	<span class="meta-description"><?php echo $description; ?></span>
+</div>

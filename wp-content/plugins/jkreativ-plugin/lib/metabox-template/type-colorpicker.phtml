@@ -1,0 +1,12 @@
+<div class="meta-option">	
+	<h4 class="meta-title"><?php echo $title ?>:</h4>
+	<?php echo jeg_create_metabox_nonce($id); ?>
+	<?php $value = $default ? $default : ""; ?>
+	<div class="meta-colorpicker">
+		<div class="pickcolor">
+			<div style="background-color: #<?php echo $value; ?>;"></div>
+		</div>
+		<input type="text" class="pickcolor-text" name="<?php echo $id; ?>" id="<?php echo $id; ?>" value="<?php echo $value; ?>" />
+	</div>
+	<span class="meta-description"><?php echo $description; ?></span>
+</div>

@@ -1,0 +1,62 @@
+/*** Clean Style for Hotel ***/
+#jtooltip,
+.jnpslider .slider-button,
+.jnpslider .slider-alternate,
+.section-header > h1, .section-header > h2, .section-header > h3, .section-header > h4, .section-header > h5, .section-header > h6 {
+    font-family: 'Playfair Display',Georgia,serif;
+}
+
+.jnpslider .slider-alternate {
+  font-style: italic;
+}
+
+.section-header > h1, .section-header > h2, .section-header > h3, .section-header > h4, .section-header > h5, .section-header > h6 {
+    margin: 0 0 10px;
+}
+
+.sectionline {
+    margin: 0 auto 10px;
+}
+
+.section-header > em {
+    font-size: 14px;
+}
+
+.jnpslider .slider-alternate {
+    font-size: 19px;
+}
+
+.section-header > h1, .section-header > h2, .section-header > h3, .section-header > h4, .section-header > h5, .section-header > h6 ,
+h1, h2, h3, h4, h5, h6, .row-fluid h3, .jnpslider h2 {
+    font-weight: 400;
+}
+
+section quote {
+	font-style: italic;
+}
+
+#jtooltip .torapper {
+  	background: #000;
+  	color: #fff;
+  	border-radius: 3px;
+  	padding: 5px 12px 6px;
+}
+
+#jtooltip {
+    font-style: italic;
+}
+
+.section-header > h1, .section-header > h2, .section-header > h3, .section-header > h4, .section-header > h5, .section-header > h6 {
+	font-size: 32px;
+}
+
+.wpcf7 p {
+  font-family: 'Playfair Display',Georgia,serif;
+  font-style: italic;
+  margin: 10px 0 5px;
+}
+
+.wpcf7 input[type="submit"] {
+	border: 1px solid #999999;
+	text-align: center;
+}

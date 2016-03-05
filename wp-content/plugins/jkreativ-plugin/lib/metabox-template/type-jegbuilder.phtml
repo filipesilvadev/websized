@@ -1,0 +1,61 @@
+<div class="jegpagebuilder">
+	
+	<div class="meta-option">
+		<h4 class="meta-title"><?php echo $title ?> Builder:</h4>
+		<?php echo jeg_create_metabox_nonce($id); ?>		
+		
+		<select class="pagebuilder-option">	
+			<option value=''><?php _e('Choose item to be added', 'jegtheme'); ?></option>
+			<?php foreach ($option as $opt) : ?>
+			<option value="<?php echo strtolower($opt); ?>"><?php echo ucfirst($opt); ?></option>
+			<?php endforeach; ?>
+		</select>
+		
+		<span class="meta-description"><?php echo $description; ?></span>
+		
+		<div class="pagebuildersubmit">
+			<input type="button" value="Add Item to <?php echo $title; ?>" class="btn">
+		</div>		
+	</div>
+	
+	<div class="meta-option builder-option">
+		<h4><?php echo $title ?> Result:</h4>	
+		
+		<!-- Builder Result -->	
+		<div class="builder_result">
+			
+			<div class="builder_container">
+				<div class="builder-inner-container">
+										
+					<!-- Here here here -->
+					<?php echo $data; ?>
+					
+				</div>
+				<br class="clear"/>
+			</div>
+			
+		</div>
+		<!-- End Builder Template -->
+		
+		<!-- Builder Template -->
+		<div class="builder_template">
+			<!-- Use base-builder.phtml -->
+			<?php echo $templates; ?>
+		</div>
+		<!-- End Builder Template -->
+		
+		<!-- Builder Overlay -->
+		<div class="builder_overlay"></div>
+		<!-- Builder Overlay -->
+	</div>
+	 
+	<div id="builder-delete-confirm" title="<?php _e('Delete item','jegtheme') ?>">
+	    <p>
+	    	<span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>
+	    	<?php _e('Delete page builder item, you can recreate this item from dropdown again','jegtheme') ?>
+	    </p>
+	</div>
+	
+</div>
+
+<div class="jegbuilder-overlay"></div>

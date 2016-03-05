@@ -1,0 +1,48 @@
+#post-body-content .postbox {
+	margin-top: 20px;
+}
+
+#jkreativ_page_pageposition_metabox,
+#jkreativ_page_blogcontent_metabox, 
+#jkreativ_page_blogmasonry_metabox,
+#jkreativ_page_blogwide_metabox, 
+#jkreativ_page_heading_metabox, 
+#jkreativ_page_fsmap_metabox,
+#jkreativ_page_fsslider_content_metabox,
+#jkreativ_page_iosslider,
+#jkreativ_page_iosslider_metabox,
+#jkreativ_page_kenburn_metabox,
+#jkreativ_page_sslider_metabox,
+#jkreativ_page_fssingle_video_metabox,
+#jkreativ_page_slidermedia_metabox,
+#jkreativ_slider_gallery,
+#jkreativ_page_mediagallery_metabox,
+#jkreativ_media_gallery,
+#jkreativ_page_mediagallerycontent_metabox,
+#jkreativ_portfolio_list_option_metabox, 
+#jkreativ_page_meta_metabox,
+#jkreativ_page_share_metabox,
+#jkreativ_page_meta_top_metabox,
+#jkreativ_page_meta_btm_metabox,
+#jkreativ_page_landing_metabox,
+#post-body #wpb_visual_composer,
+#post-body .composer-switch,
+#jkreativ_legacy_page_builder_metabox,
+#jkreativ_page_landing_vc_metabox,
+#jkreativ_switch_template_notice_metabox {
+	display: none;
+}
+
+
+#jkreativ_portfolio_cover_metabox,
+#jkreativ_portfolio_sidecontent_metabox,
+#jkreativ_portfolio_ajax_metabox,
+#jkreativ_portfolio_meta_metabox,   
+#jkreativ_portfolio_landing_metabox, 
+#jkreativ_portfolio_media_gallery,
+#jkreativ_portfolio_cover_meta_metabox,
+#jkreativ_portfolio_link_metabox,
+#jkreativ_portfolio_landing_vc_metabox,
+#postimagediv {
+	display: none;
+}

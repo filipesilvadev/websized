@@ -1,0 +1,15 @@
+#jkreativ_blog_quote_metabox, #jkreativ_blog_ads_metabox {
+	margin-top: 20px;
+}
+
+
+#jkreativ_blog_standart_metabox,
+#jkreativ_blog_quote_metabox, 
+#jkreativ_blog_vimeo_metabox,
+#jkreativ_blog_youtube_metabox, 
+#jkreativ_blog_soundcloud_metabox, 
+#jkreativ_blog_ads_metabox,
+#jkreativ_blog_slider_metabox, 
+#jkreativ_blog_html5video_metabox {
+	display: none;
+}

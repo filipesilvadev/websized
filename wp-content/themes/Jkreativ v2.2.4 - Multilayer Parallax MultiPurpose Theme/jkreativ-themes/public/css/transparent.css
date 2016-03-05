@@ -1,0 +1,52 @@
+body.landingpage.toptransparent .contentheaderspace  {
+    display: none;
+}
+
+body.landingpage.toptransparent .topnavigation,
+body.fullscreenslider.toptransparent .topnavigation {
+    background: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+body.toptransparent .topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > .nav_logo > .mobile_toggle > .mobile_button,
+body.toptransparent .topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link,
+body.toptransparent .topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link * {
+    color: #fff;
+}
+
+body.toptransparent .navcontent > ul > li > a {
+    color: #fff;
+}
+
+body.toptransparent .topnavigationwoo .topaccount span,
+body.toptransparent .topnavigationwoo .topcart > a,
+body.toptransparent .topnavigationwoo .toplogin > a:before,
+body.toptransparent .topnavigation .footsocial a,
+body.toptransparent .topnavigationsearch {
+    color :#fff;
+}
+
+body.landingpage.toptransparent .topnavigation.transparentbg,
+body.fullscreenslider .topnavigation.transparentbg,
+body.normaltransparent .topnavigation {
+    background: rgba(0,0,0,0.7);
+}
+
+body.landingpage.toptransparent .sectioncontainer.sectionheading {
+    text-align: center;
+    padding: 200px 30px 160px;
+}
+
+body.landingpage.toptransparent .sectioncontainer.sectionheading .span6 {
+    width: 100%;
+}
+
+body.fullscreenslider.horizontalnav  .fs-container {
+    margin-top: 0;
+}
+
+body.fullscreenslider.horizontalnav .kennav {
+    bottom: 20px;
+    top: auto;
+}

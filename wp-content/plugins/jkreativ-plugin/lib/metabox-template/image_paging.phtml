@@ -1,0 +1,22 @@
+<div class="imagepagelistdiv">
+	<ul class="imagepagelist">
+		<?php foreach($images as $image) { ?>
+		<li data-id="<?php echo $image->ID; ?>">
+			<?php echo wp_get_attachment_image($image->ID, 'thumbnail'); ?>
+		</li>
+		<?php } ?>	
+	</ul>
+	<div class="clear"></div>
+</div>
+
+<div class="imagepaging">
+	<ul class="imagepaginglist">
+		<?php for($i = 1; $i <= $pages; $i++) { ?>
+		<li class='<?php if( $i == $curpage) echo "curpage"; ?> btn' data-page="<?php echo $i; ?>"> 
+			<?php echo $i; ?> 
+		</li>
+		<?php } ?>
+	</ul>
+	<div class="imagepagingloading"></div>
+	<div class="clear"></div>
+</div>

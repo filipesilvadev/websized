@@ -1,0 +1,7 @@
+<div class="meta-option">	
+	<h4 class="meta-title"><?php echo $title ?>:</h4>
+	<?php echo jeg_create_metabox_nonce($id); ?>
+	<?php $value = $default ? $default : ""; ?>
+	<textarea name="<?php echo $id; ?>" id="<?php echo $id; ?>"><?php echo $value;?></textarea>
+	<span class="meta-description"><?php echo $description; ?></span>
+</div>

@@ -1,0 +1,241 @@
+body.boxcontent .jviewport,
+body.boxcontent .topnavigation,
+body.boxcontent .portfoliopagingwrapper,
+body.boxcontent .galleryloadmore {
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+}
+
+body.boxcontent .jviewport {
+    position: absolute;
+}
+
+body.boxcontent #rightsidecontainer {
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+body.boxcontent .filterfloat {
+    position: absolute;
+}
+
+body.boxcontent .pagecenter {
+    margin-left: inherit;
+}
+
+body.boxcontent.horizontalnav .fullwidth.nosidebar .mainpage,
+body.boxcontent.horizontalnav .fullwidth.nosidebar .pageholder,
+body.boxcontent.horizontalnav .fullwidth .pageholder {
+    width: 100%;
+}
+
+body.boxcontent .pagecenter .pageholder {
+    margin-left: inherit;
+    margin-bottom: -7px;
+}
+
+body.boxcontent .pageinnerwrapper {
+    margin-bottom: 0;
+}
+
+body.boxcontent .pagewrapper .blognormalpaging.blogpagingholder {
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 0;
+    -webkit-box-shadow: -2px 0 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: -2px 0 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05);
+    box-shadow: -2px 0 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05);
+}
+
+body.boxcontent .pageinnerwrapper, body.boxcontent .mainsidebar .blog-sidebar {
+    box-shadow: none;
+    background: transparent;
+}
+
+body.boxcontent .mainsidebar .blog-sidebar-title h3{
+    border-top: 1px solid #DDDDDD;
+}
+body.boxcontent .mainsidebar .blog-sidebar:first-child .blog-sidebar-title h3{
+    border-top: 0;
+}
+
+body.boxcontent .blog-big-wrapper .blog-sidebar{
+    padding-top: 0;
+}
+
+body.boxcontent.horizontalnav .pagewrapper {
+    padding-top: 0;
+    width: 100%;
+}
+
+body.boxcontent.horizontalnav .fullwidth .mainpage,
+body.boxcontent .halfwidth .mainpage{
+    width: 70%;
+    overflow: hidden;
+    background: #fff;
+}
+
+body.boxcontent.horizontalnav .fullwidth .mainsidebar,
+body.boxcontent .halfwidth .mainsidebar{
+    width: 30%;
+}
+
+body.boxcontent .mainpage.blog-normal-article .article-quote-wrapper {
+    margin: 0;
+}
+
+body.boxcontent .mainpage.blog-normal-article .featured {
+    margin: 0 auto 25px;
+}
+
+body.boxcontent .halfwidth .mainsidebar .mainsidebar-wrapper {
+    width: 320px;
+}
+
+body.boxcontent.horizontalnav .fullwidth .mainsidebar .mainsidebar-wrapper,
+body.boxcontent .halfwidth .pageholder  {
+    width: 100%;
+}
+
+body.boxcontent .pageright .pageholder {float: right;}
+
+body.boxcontent .halfwidth .pageinnerwrapper {
+    background: #fff;
+}
+
+body.boxcontent.page-template-templatetemplate-contact-full-map-php .halfwidth .pageholder {
+    width: 45% !important;
+}
+
+body.boxcontent.page-template-templatetemplate-contact-full-map-php .pagewrapper {
+    padding-top: 20px;
+}
+
+body.boxcontent .pageholder > .featured {
+    margin-bottom: 0;
+}
+
+body.boxcontent .blog-big-wrapper {
+    margin-right: 0;
+}
+
+body.boxcontent .mainsidebar {
+    margin-left: 0;
+}
+body.boxcontent .mainsidebar .mainsidebar-wrapper {
+    border-left: 1px solid rgba(0,0,0,0.05);
+    -webkit-box-shadow: inset 2px 4px 8px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 2px 4px 8px rgba(0,0,0,0.05);
+    box-shadow: inset 2px 4px 8px rgba(0,0,0,0.05);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body.boxcontent.horizontalnav .pagewrapper.coverwidth {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body.boxcontent .coverwidth .blog-sidebar,
+body.boxcontent .mainsidebar .blog-sidebar,
+body.boxcontent .pagewrapper.outside .pageinnerwrapper{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+body.boxcontent .halfwidth.nosidebar .pageholder {
+    width: 100%;
+}
+
+body.boxcontent .halfwidth.nosidebar .mainpage {
+    width: 100%;
+}
+
+body.boxcontent.horizontalnav .pagewrapper {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+@media only screen and (max-width:1280px) {
+    body.boxcontent .jviewport,
+    body.boxcontent .topnavigation,
+    body.boxcontent .portfoliopagingwrapper,
+    body.boxcontent .galleryloadmore {
+        left: 50%;
+        margin-left: -540px;
+        width: 1024px;
+    }
+
+    body.boxcontent.horizontalnav .fullwidth .mainpage,
+    body.boxcontent .halfwidth .mainpage{
+        width: 70%;
+    }
+    body.boxcontent.horizontalnav .fullwidth .mainsidebar,
+    body.boxcontent .halfwidth .mainsidebar{
+        width: 30%;
+    }
+    body.boxcontent .halfwidth .mainsidebar .mainsidebar-wrapper {
+        width: 307px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    body.boxcontent .jviewport,
+    body.boxcontent .topnavigation,
+    body.boxcontent .portfoliopagingwrapper,
+    body.boxcontent .galleryloadmore {
+        left: inherit;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    body.boxcontent.horizontalnav .pagewrapper,
+    body.boxcontent.horizontalnav .noheadermenu .pagewrapper,
+    body.boxcontent.horizontalnav .horizontalnav .pagewrapper {
+        float: none !important;
+        margin: 20px auto;
+        padding: 0;
+        width: 95%;
+    }
+
+    body.boxcontent.horizontalnav .fullwidth .mainpage,
+    body.boxcontent .halfwidth .mainpage {
+        margin-bottom: 15px;
+        border-radius: 2px;
+        -webkit-box-shadow: 2px 0 8px rgba(0,0,0,0.05),0 0 0 1px rgba(0,0,0,0.05);
+        -moz-box-shadow: 2px 0 8px rgba(0,0,0,0.05),0 0 0 1px rgba(0,0,0,0.05);
+        box-shadow: 2px 0 8px rgba(0,0,0,0.05),0 0 0 1px rgba(0,0,0,0.05);
+    }
+
+    body.boxcontent .fullwidth .mainsidebar,
+    body.boxcontent .fullwidth .mainsidebar .mainsidebar-wrapper,
+    body.boxcontent .halfwidth .mainsidebar,
+    body.boxcontent .halfwidth .mainsidebar .mainsidebar-wrapper,
+    body.boxcontent .mainsidebar .mainsidebar-wrapper {
+        width: 100% !important;
+        box-shadow: none;
+        border-left: 0;
+    }
+    body.boxcontent .mainsidebar .blog-sidebar-title h3 {border-top: 0;}
+    body.boxcontent .mainsidebar .blog-sidebar {
+        margin-bottom: 15px;
+        background: #fff;
+        -webkit-box-shadow: 2px 0 8px rgba(0,0,0,0.05),0 0 0 1px rgba(0,0,0,0.05);
+        -moz-box-shadow: 2px 0 8px rgba(0,0,0,0.05),0 0 0 1px rgba(0,0,0,0.05);
+        box-shadow: 2px 0 8px rgba(0,0,0,0.05),0 0 0 1px rgba(0,0,0,0.05);
+    }
+
+    body.boxcontent #rightsidecontainer {
+        background: none;
+        box-shadow: none;
+    }
+
+    body.boxcontent .pageinnerwrapper {
+        margin-bottom: 15px;
+    }
+}

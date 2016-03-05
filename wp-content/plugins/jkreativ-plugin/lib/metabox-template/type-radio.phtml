@@ -1,0 +1,12 @@
+<div class="meta-option">	
+	<h4 class="meta-title"><?php echo $title ?>:</h4>
+	<?php echo jeg_create_metabox_nonce($id); ?>
+	<?php foreach ($option as $key => $value) : ?>	
+	<div class="radio-wrapper">
+		<?php $checked = ( $default == $key ) ? "checked='checked'" : ''; ?>
+		<input type="radio" value="<?php  echo $key?>" name="<?php echo $id; ?>" id="<?php echo $id . $key; ?>" <?php echo $checked; ?>/>
+		<label for="<?php echo $id . $key; ?>"> <?php echo $value; ?> </label>
+	</div>
+	<?php endforeach; ?>
+	<span class="meta-description"><?php echo $description; ?></span>
+</div>

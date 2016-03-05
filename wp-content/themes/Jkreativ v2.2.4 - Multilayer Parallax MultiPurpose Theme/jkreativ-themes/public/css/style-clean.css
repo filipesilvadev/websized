@@ -1,0 +1,261 @@
+/** Top menu */
+.navcontent .childmenu,
+.topnavigationwoo .accountdrop,
+.topcartcontent {
+    border:none;
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.15), 0 1px 1px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.15), 0 1px 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.15), 0 1px 1px 1px rgba(0,0,0,0.05);
+}
+
+.navcontent .childmenu > li:last-child,
+.topnavigationwoo .accountdrop,
+.topcartcontent {
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+}
+
+.item .text1,
+.item .text2 {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    text-shadow:0px 1px 1px rgba(0,0,0,0.2)
+}
+.slidewrapper .item em {
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: normal;
+}
+
+.filterfloatlist li,
+.mapitem ul {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.mapitem .mapbutton {
+    margin: 20px 0 15px;
+}
+
+.infowindow .detail {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*** Portfolio ***/
+.portfolioitem .info h2 {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+}
+
+.portfoliopagingwrapper, .blogpagingwrapper {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0,0,0,0.1);
+}
+
+/*** Comments ***/
+#respond label {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+}
+.addtime {font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;}
+
+/*** Blog ***/
+.pageinnerwrapper,
+.mainsidebar .blog-sidebar,
+.pagewrapper .blognormalpaging.blogpagingholder,
+.blognormalpaging.blogpagingholder,
+.article-masonry-box, .article-normal-box {
+    border:none;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.article-masonry-box {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.pagetext,
+.blogpagingholder .pagedot > a, .blogpagingholder .pagedot > span {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.blogpagingholder .pagedot > a, .blogpagingholder .pagedot > span {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.blogpagingholder .pagedot > a {
+    border:none;
+    -webkit-transition: ease all 0.5s;
+    -moz-transition: ease all 0.5s;
+    transition: ease all 0.5s;
+}
+
+.article-masonry-wrapper {margin-top: 0;}
+.article-masonry-summary {
+    background: #fbfbfb;
+    border-top: 1px dotted #ededed;
+    text-align: center;
+    padding: 0 30px 25px;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.mainpage.blog-normal-article .pageinnerwrapper {
+    padding: 30px 50px;
+}
+.mainpage.blog-normal-article .featured {
+    margin:-30px -50px 30px;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+}
+
+.mainpage.blog-normal-article .fotorama__nav-wrap {
+    position: absolute;
+    bottom: 50px;
+}
+
+.mainpage.blog-normal-article .article-content.quote {margin:0;}
+.mainpage.blog-normal-article .article-quote-wrapper {margin: -10px -30px;}
+.blog-big-wrapper .comment-text {margin-left: 110px;}
+.blog-big-wrapper .comment-autor {margin-right: 30px;}
+.blog-normal-article .readmore,
+.article-masonry-summary .readmore {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.blog-normal-article .readmore {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 15px;
+}
+
+.clean-blog-content .article-masonry-meta-wrapper,
+.article-masonry-meta-wrapper {
+    font-size: 12px;
+    line-height: 24px;
+    background: transparent;
+    border-top: 1px dotted #ededed;
+}
+
+.clean-blog-article { margin: 40px 0; }
+.horizontalnav .clean-blog-article { margin-top: 60px; }
+.clean-blog-content .post-excerpt {margin-bottom: 30px;}
+.clean-meta-top.clean-comment-meta {font-weight: normal;}
+.clean-blog-content .comment-container {padding: 20px 0 30px;}
+.clean-blog-content .comment-respond,
+.clean-blog-content #respond > h3 {margin-top:0;}
+.article-content {
+    font-size: 16px;
+}
+
+/*** Post Format: Quote ***/
+.article-quote-container .article-masonry-wrapper { margin-bottom: 0;}
+.article-quote-wrapper {margin-bottom: 20px;}
+.article-quote-wrapper quote {
+    font-style: italic;
+    font-weight: normal;
+}
+.article-quote-wrapper:before {
+    content: "";
+}
+.article-quote-wrapper .article-meta { font-size: 14px}
+.article-quote-wrapper a:hover {color: inherit; text-decoration: underline;}
+
+.blog-normal-article .article-quote-wrapper quote,
+.clean-blog-article .article-quote-wrapper quote {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: normal;
+    font-style: italic;
+}
+.article-quote-wrapper quote sup {font-style: italic;}
+.article-quote-wrapper quote span {margin: 0 5px}
+.article-masonry-ads-text {
+    border: none;
+    background: #fbfbfb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.article-head-wrapper {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+}
+
+/*** Widget ***/
+#wp-calendar {margin: 0;}
+#wp-calendar caption {
+    background: #fbfbfb; border: 1px solid #dcdcdc; border-bottom: 0; text-transform: uppercase; letter-spacing: 1px; font-weight: bold;}
+table#wp-calendar th,
+table#wp-calendar td {
+    border: 1px solid #dcdcdc;
+}
+table#wp-calendar th {background: #f4f4f4; font-size: 10px; font-weight: bold; padding: 0;}
+table#wp-calendar td {background: #fff;}
+
+table#wp-calendar td:hover {
+    background: inherit;
+}
+table#wp-calendar td a:hover {
+    color: #222;
+    text-shadow: 0;
+    cursor: pointer;
+}
+
+/*** Woocommerce ***/
+.productitem .slider-button .button-text {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+}
+
+.productitem .price {margin-top: 0;}
+.cart .btn {padding:8px 20px;}
+.jkreativ .jkreativ-woocommerce.productline .price {font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;}
+
+.portfolioitem .info p,
+.jkreativ .jkreativ-woocommerce .article-header > span,
+.productitem .pinfo > small {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.topcart_desc strong, .topcart_desc a:hover strong, .topcart_subtotal,
+.jkreativ table.shop_table .product-name a {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.topcart_price,
+.topcart_subtotal,
+.topcart_desc > span,
+.toplink li .topcart_product_remove > a, .topnavigationwoo li .topcart_product_remove > a,
+.toplink li a.topcart_btn.viewcart, .topnavigationwoo li a.topcart_btn,
+.jkreativ .jkreativ-woocommerce .account-user .user-name,
+.jkreativ table.shop_table .product-name .product-price, .jkreativ table.shop_table .product-subtotal,
+.jkreativ .jkreativ-woocommerce .shipping_calculator h3 a, .jkreativ .jkreativ-woocommerce .shipping_calculator h2 a {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.account-user .user-name {font-weight: bold}
+.account-user .logout-link {font-size: 80%;}
+ .jkreativ .cartpage .article-header h2 {
+    background: #f9f9f9;
+    margin: -40px -50px 40px;
+    border: 0;
+    border-bottom: 3px double #ebebeb;
+ }
+
+ .jkreativ table.shop_table td {padding: 15px !important}
+ .left_column_cart th {border-top: 0;}

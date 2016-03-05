@@ -1,0 +1,7 @@
+<div class="meta-option">	
+	<?php $value = $default ? $default : ""; ?>
+	<h4 class="meta-title"><?php echo $title ?>: <input readonly="readonly" type="text" class="slidertext" name="<?php echo $id; ?>" id="<?php echo $id; ?>" value="<?php echo $value; ?>" /> <?php echo $option['size']; ?>	</h4>
+	<?php echo jeg_create_metabox_nonce($id); ?>
+	<div class="sliderbar" min="<?php echo $option['min']; ?>" max="<?php echo $option['max']; ?>" value="<?php echo $value; ?>" step="<?php echo $option['step']; ?>"></div>
+	<span class="meta-description"><?php echo $description; ?></span>
+</div>

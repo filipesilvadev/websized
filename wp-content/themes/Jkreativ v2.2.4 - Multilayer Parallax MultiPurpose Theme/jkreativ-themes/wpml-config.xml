@@ -1,0 +1,149 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">slider</custom-type>
+        <custom-type translate="1">team</custom-type>
+        <custom-type translate="1">pricing</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+        <taxonomy translate="1">portfolio_tag</taxonomy>
+    </taxonomies>
+
+    <custom-fields>
+        <custom-field action="copy">jkreativ_general</custom-field>
+        <custom-field action="copy">jkreativ_music_player</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_ajax</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_sidecontent</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_cover</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_cover_meta</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_meta</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_setting</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_landing</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_link</custom-field>
+        <custom-field action="copy">jkreativ_slider_setting</custom-field>
+        <custom-field action="copy">jkreativ_slider_splitslider</custom-field>
+        <custom-field action="copy">jkreativ_slider_fulltext</custom-field>
+        <custom-field action="copy">jkreativ_slider_parallaxslider</custom-field>
+        <custom-field action="copy">jkreativ_blog_template</custom-field>
+        <custom-field action="copy">jkreativ_blog_format</custom-field>
+        <custom-field action="copy">jkreativ_blog_quote</custom-field>
+        <custom-field action="copy">jkreativ_blog_slider</custom-field>
+        <custom-field action="copy">jkreativ_blog_vimeo</custom-field>
+        <custom-field action="copy">jkreativ_blog_youtube</custom-field>
+        <custom-field action="copy">jkreativ_blog_soundcloud</custom-field>
+        <custom-field action="copy">jkreativ_blog_html5video</custom-field>
+        <custom-field action="copy">jkreativ_blog_ads</custom-field>
+        <custom-field action="copy">jkreativ_page_landing</custom-field>
+        <custom-field action="copy">jkreativ_page_share</custom-field>
+        <custom-field action="copy">jkreativ_page_meta_top</custom-field>
+        <custom-field action="copy">jkreativ_page_meta_btm</custom-field>
+        <custom-field action="copy">jkreativ_page_mediagallerycontent</custom-field>
+        <custom-field action="copy">jkreativ_page_mediagallery</custom-field>
+        <custom-field action="copy">jkreativ_page_slidermedia</custom-field>
+        <custom-field action="copy">jkreativ_page_fssingle_video</custom-field>
+        <custom-field action="copy">jkreativ_page_sslider</custom-field>
+        <custom-field action="copy">jkreativ_page_kenburn</custom-field>
+        <custom-field action="copy">jkreativ_page_iosslider</custom-field>
+        <custom-field action="copy">jkreativ_page_fsslider_content</custom-field>
+        <custom-field action="copy">jkreativ_page_fsmap</custom-field>
+        <custom-field action="copy">jkreativ_page_heading</custom-field>
+        <custom-field action="copy">jkreativ_page_blogwide</custom-field>
+        <custom-field action="copy">jkreativ_page_blogmasonry</custom-field>
+        <custom-field action="copy">jkreativ_page_pageposition</custom-field>
+        <custom-field action="copy">jkreativ_page_blogcontent</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_list_option</custom-field>
+        <custom-field action="copy">jkreativ_team</custom-field>
+        <custom-field action="copy">jkreativ_pricing</custom-field>
+        <custom-field action="copy">jkreativ_product</custom-field>
+        <custom-field action="copy">postgallery</custom-field>
+        <custom-field action="copy">jkreativ_gallery</custom-field>
+        <custom-field action="copy">jkreativ_portfolio_gallery</custom-field>
+    </custom-fields>
+
+    <admin-texts>
+        <key name="joption">
+            <key name="website_copyright"/>
+            <key name="enable_section_builder"/>
+            <key name="disable_smoothscroll"/>
+            <key name="msg_rightclick"/>
+            <key name="rightclick_background_music"/>
+            <key name="rightclick_mp3"/>
+            <key name="rightclick_ogg"/>
+            <key name="social_facebook"/>
+            <key name="social_twitter"/>
+            <key name="social_linkedin"/>
+            <key name="social_googleplus"/>
+            <key name="social_pinterest"/>
+            <key name="social_github"/>
+            <key name="social_flickr"/>
+            <key name="social_tumblr"/>
+            <key name="social_dribbble"/>
+            <key name="social_soundcloud"/>
+            <key name="social_lastfm"/>
+            <key name="social_behance"/>
+            <key name="social_instagram"/>
+            <key name="social_vimeo"/>
+            <key name="social_500px"/>
+            <key name="landing_footer_info"/>
+            <key name="enable_footer_landing"/>
+            <key name="footerlayout"/>
+            <key name="single_blog_template"/>
+            <key name="general_blog_normal_page_position"/>
+            <key name="general_blog_normal_page_width"/>
+            <key name="general_blog_normal_show_sidebar"/>
+            <key name="general_blog_normal_sidebar"/>
+            <key name="general_blog_normal_hide_share"/>
+            <key name="general_blog_normal_hide_meta"/>
+            <key name="general_blog_clean_hide_top_meta"/>
+            <key name="general_blog_clean_hide_bottom_meta"/>
+            <key name="general_blog_clean_hide_share"/>
+            <key name="general_blog_cover_sidebar"/>
+            <key name="general_blog_cover_hide_share"/>
+            <key name="general_blog_cover_hide_meta"/>
+            <key name="general_blog_wide_sidebar"/>
+            <key name="general_blog_extra_hide_share"/>
+            <key name="general_blog_extra_hide_meta"/>
+            <key name="archive_template"/>
+            <key name="archieve_normal_show_sidebar"/>
+            <key name="archieve_normal_sidebar"/>
+            <key name="search_template"/>
+            <key name="search_normal_show_sidebar"/>
+            <key name="search_normal_sidebar"/>
+            <key name="styleadditional"/>
+            <key name="scriptadditional"/>
+            <key name="additional_font_1_fontname"/>
+            <key name="additional_font_1_eot"/>
+            <key name="additional_font_1_woff"/>
+            <key name="additional_font_1_ttf"/>
+            <key name="additional_font_1_svg"/>
+            <key name="additional_font_2_fontname"/>
+            <key name="additional_font_2_eot"/>
+            <key name="additional_font_2_woff"/>
+            <key name="additional_font_2_ttf"/>
+            <key name="additional_font_2_svg"/>
+            <key name="additional_font_3_fontname"/>
+            <key name="additional_font_3_eot"/>
+            <key name="additional_font_3_woff"/>
+            <key name="additional_font_3_ttf"/>
+            <key name="additional_font_3_svg"/>
+            <key name="product_type"/>
+            <key name="product_width"/>
+            <key name="item_height"/>
+            <key name="product_use_margin"/>
+            <key name="product_margin_size"/>
+            <key name="override_overlay"/>
+            <key name="product_overlay"/>
+            <key name="single_product_fullwidth"/>
+            <key name="product_single_type"/>
+            <key name="single_product_width"/>
+            <key name="single_item_height"/>
+            <key name="single_justified_height"/>
+            <key name="single_product_use_margin"/>
+            <key name="single_product_margin_size"/>
+            <key name="single_expand_mode"/>
+            <key name="single_scale_mode"/>
+        </key>
+    </admin-texts>
+
+</wpml-config>

@@ -1,0 +1,272 @@
+<div class="meta-option" data-type="mediagallery">		
+	<h4 class="setting-title"><?php echo $title ?> :</h4>
+	
+	<div class="meta-imagelist">		
+		<!-- image result -->
+		<div class="imageresult">
+			<div class="imageresult-inner">
+				<?php 
+					if($value) {
+						foreach ($value as $key => $val) {
+							if($val['type'] === 'image' && in_array('image', $option['include'])) {
+								echo jeg_media_image_template($id, $key, $val, $option);
+							} else if($val['type'] === 'youtube' && in_array('youtube', $option['include'])) {
+								echo jeg_media_youtube_template($id, $key, $val, $option);								
+							} else if($val['type'] === 'vimeo' && in_array('vimeo', $option['include'])) {
+								echo jeg_media_vimeo_template($id, $key, $val, $option);
+							} else if($val['type'] === 'soundcloud' && in_array('soundcloud', $option['include'])) {
+								echo jeg_media_soundcloud_template($id, $key, $val, $option);
+							} else if($val['type'] === 'html5video' && in_array('html5video', $option['include'])) {
+								echo jeg_media_html5video_template($id, $key, $val, $option);
+							}
+						}
+					}
+				?>
+			</div>
+		</div>
+		<!-- image result end -->
+		
+		
+		<div class="typeaccordion">
+			
+			<?php if(in_array('image', $option['include'])) { ?>
+			<!-- image content -->
+			<div class="imagecontent accordionwrapper" portfolio-type="image">
+				<div class="accordionheader">
+					<h4 class="portfoliopicture">Insert Image ( click image to insert image into media builder ) </h4>					
+				</div>
+				<div class="accordionbody open">
+					<div class="btn imggalselect">SELECT IMAGE</div>
+					<span> for choosing multiple image, click shift or alt </span>
+				</div>
+										
+			</div>
+			<!-- image content -->
+			<?php } ?>
+			
+			<?php if(in_array('youtube', $option['include'])) { ?>
+			<!-- youtube content -->
+			<div class="imagecontent accordionwrapper" portfolio-type="youtube">
+				<div class="accordionheader">
+					<h4 class="portfolioyoutube">Insert Youtube </h4>					
+				</div>
+				<div class="accordionbody">
+					<div class="portfolioinput">
+						<div class="portfolioinputtitle">Insert youtube URL :</div>
+						<input type="text" class="youtubeurl"> 
+						
+						<div class="portfolioinputtitle">Youtube Title :</div>
+						<input type="text" class="videotitle"> 
+						
+						<?php if($option['videocover']) { ?>
+						<div class="uploadfile">
+							<div class="portfolioinputtitle"> Image Cover :</div>
+							<div class="jimg">
+								<img src="">
+							</div>
+							<input type="hidden" class="videocover uploadtext">
+							<div class="buttons">
+								<input type='button' value='Select Image' class='selectfileimage btn'/>
+								<input type='button' value='x' class='removefile btn'/>
+							</div> 
+						</div>
+						<?php } ?>
+						
+						<?php if(!$option['nowidth']) {  echo jeg_print_block_size(); } ?>
+					</div>
+					<div class="portfoliosubmit">
+						<input type="submit" class="youtubesubmit btn" value="Insert Youtube Video">
+					</div>
+				</div>
+			</div>
+			<!-- youtube content -->
+			<?php } ?>
+			
+			<?php if(in_array('vimeo', $option['include'])) { ?>
+			<!-- vimeo content -->
+			<div class="imagecontent accordionwrapper" portfolio-type="vimeo">
+				<div class="accordionheader">
+					<h4 class="portfoliovimeo">Insert Vimeo </h4>					
+				</div>
+				<div class="accordionbody">
+					<div class="portfolioinput">
+						<div class="portfolioinputtitle">Insert Vimeo URL :</div>
+						<input type="text" class="vimeourl"> 
+						
+						<div class="portfolioinputtitle">Vimeo Title :</div>
+						<input type="text" class="videotitle"> 
+						
+						<?php if($option['videocover']) { ?>
+						<div class="uploadfile">
+							<div class="portfolioinputtitle"> Image Cover :</div>
+							<div class="jimg">
+								<img src="">
+							</div>
+							<input type="hidden" class="videocover uploadtext">
+							<div class="buttons">
+								<input type='button' value='Select Image' class='selectfileimage btn'/>
+								<input type='button' value='x' class='removefile btn'/>
+							</div> 
+						</div>
+						<?php } ?>
+						
+						<?php if(!$option['nowidth']) {  echo jeg_print_block_size(); } ?>	
+					</div>
+					<div class="portfoliosubmit">
+						<input type="submit" class="vimeosubmit btn" value="Insert Vimeo Video">
+					</div>
+				</div>
+			</div>
+			<!-- vimeo content -->
+			<?php } ?>
+			
+			<?php if(in_array('soundcloud', $option['include'])) { ?>
+			<!-- soundcloud content -->
+			<div class="imagecontent accordionwrapper" portfolio-type="soundcloud">
+				<div class="accordionheader">
+					<h4 class="portfoliosoundcloud">Insert Sound Cloud </h4>					
+				</div>
+				<div class="accordionbody">
+					<div class="portfolioinput">
+						<div class="portfolioinputtitle">Insert Soundcloud URL :</div>
+						<input type="text" class="soundcloudurl"> 
+						
+						<div class="portfolioinputtitle">Soundcloud Title :</div>
+						<input type="text" class="videotitle"> 
+						
+						<?php if($option['videocover']) { ?>
+						<div class="uploadfile">
+							<div class="portfolioinputtitle"> Image Cover :</div>
+							<div class="jimg">
+								<img src="">
+							</div>
+							<input type="hidden" class="videocover uploadtext">
+							<div class="buttons">
+								<input type='button' value='Select Image' class='selectfileimage btn'/>
+								<input type='button' value='x' class='removefile btn'/>
+							</div> 
+						</div>
+						<?php } ?>
+						
+						<?php if(!$option['nowidth']) {  echo jeg_print_block_size(); } ?>
+					</div>
+					
+					<div class="portfoliosubmit">
+						<input type="submit" class="soundcloudsubmit btn" value="Insert Soundcloud Video">
+					</div>
+				</div>
+			</div>
+			<!-- soundcloud content -->
+			<?php } ?>
+			
+			
+			<?php if(in_array('html5video', $option['include'])) { ?>
+			<!-- html5 video content -->
+			<div class="imagecontent accordionwrapper" portfolio-type="html5video">
+				<div class="accordionheader">
+					<h4 class="portfoliohtml5video">Insert HTML 5 Video </h4>					
+				</div>
+				<div class="accordionbody">
+					<div class="portfolioinput">
+						
+						<div class="portfolioinputtitle">HTML 5 Video Title :</div>
+						<input type="text" class="videotitle">
+						
+						<div class="uploadfile">
+							<div class="portfolioinputtitle">Insert MP4 Video :</div>
+							<input type="text" class="video-mp4 uploadtext">
+							<input type='button' value='Select / Upload MP4' class='selectfile btn'/> 						
+						</div>
+						
+						<div class="uploadfile">
+							<div class="portfolioinputtitle">Insert WEBM Video :</div>						
+							<input type="text" class="video-webm uploadtext">
+							<input type='button' value='Select / Upload WEBM' class='selectfile btn'/> 
+						</div>
+						
+						<div class="uploadfile">
+							<div class="portfolioinputtitle">Insert OGG Video :</div>						
+							<input type="text" class="video-ogg uploadtext">
+							<input type='button' value='Select / Upload OGG' class='selectfile btn'/> 						
+						</div>
+						
+						<?php if($option['videocover']) { ?>
+						<div class="uploadfile">
+							<div class="portfolioinputtitle"> Image Cover :</div>
+							<div class="jimg">
+								<img src="">
+							</div>
+							<input type="hidden" class="videocover uploadtext">
+							<div class="buttons">
+								<input type='button' value='Select Image' class='selectfileimage btn'/>
+								<input type='button' value='x' class='removefile btn'/>
+							</div> 
+						</div>
+						<?php } ?>
+						
+						<?php if(!$option['nowidth']) {  echo jeg_print_block_size(); } ?>
+					</div>
+					
+					<div class="portfoliosubmit">
+						<input type="submit" class="html5videosubmit btn" value="Insert HTML 5 Video">
+					</div>
+				</div>
+			</div>
+			<!-- html5 video content -->
+			<?php } ?>
+			
+		</div>
+		
+		
+		
+		<!-- image grid clone -->
+		<div class="imggridclone">
+			
+			<?php if(in_array('image', $option['include'])) { ?>
+			<!-- Template image -->
+			<div class="template-image">
+				<?php echo jeg_media_image_template($id, 'index', null, $option) ?>
+			</div>
+			<!-- Template image -->
+			<?php } ?>
+			
+			<?php if(in_array('youtube', $option['include'])) { ?>
+			<!-- Template Youtube -->
+			<div class="template-youtube">
+				<?php echo jeg_media_youtube_template($id, 'index', null, $option); ?>
+			</div>
+			<!-- Template Youtube -->
+			<?php } ?>
+			
+			<?php if(in_array('vimeo', $option['include'])) { ?>
+			<!-- Template vimeo -->
+			<div class="template-vimeo">
+				<?php echo jeg_media_vimeo_template($id, 'index', null, $option); ?>
+			</div>
+			<!-- Template vimeo -->
+			<?php } ?>
+			
+			<?php if(in_array('soundcloud', $option['include'])) { ?>
+			<!-- Template soundcloud -->
+			<div class="template-soundcloud">
+				<?php echo jeg_media_soundcloud_template($id, 'index', null, $option); ?>
+			</div>
+			<!-- Template vimeo -->
+			<?php } ?>
+			
+			<?php if(in_array('html5video', $option['include'])) { ?>
+			<!-- Template html 5 video -->
+			<div class="template-html5video">
+				<?php echo jeg_media_html5video_template($id, 'index', null, $option); ?>
+			</div>
+			<!-- Template html 5 video -->	
+			<?php } ?>
+			
+		</div>
+		<!-- image grid clone -->		
+	</div>
+	
+	<?php echo jeg_create_metabox_nonce($id); ?>
+	
+	<span class="meta-description"><?php echo $description; ?></span>
+</div>

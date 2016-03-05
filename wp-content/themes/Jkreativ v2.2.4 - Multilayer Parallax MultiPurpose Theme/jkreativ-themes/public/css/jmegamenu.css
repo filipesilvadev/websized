@@ -1,0 +1,438 @@
+/** ie fixed **/
+#mega_main_menu.side_navigation > .menu_holder,#mega_main_menu.top_navigation > .menu_holder {
+    filter:none;
+}
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li:hover > .item_link,
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link:hover,
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link,
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li.current-menu-item > .item_link,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li:hover > .item_link,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link:hover,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li.current-menu-item > .item_link {
+    filter:none;
+}
+#mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li:hover > .item_link,
+#mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.side_navigation ul li.post_type_dropdown .mega_dropdown > li:hover > .item_link,
+#mega_main_menu.side_navigation ul li.post_type_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.side_navigation ul li.post_type_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.side_navigation ul li.grid_dropdown .mega_dropdown > li:hover > .item_link,
+#mega_main_menu.side_navigation ul li.grid_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.side_navigation ul li.grid_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.side_navigation ul li.post_type_dropdown .mega_dropdown > li > .processed_image:hover,
+#mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li:hover > .item_link,
+#mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.top_navigation ul li.post_type_dropdown .mega_dropdown > li:hover > .item_link,
+#mega_main_menu.top_navigation ul li.post_type_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.top_navigation ul li.post_type_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.top_navigation ul li.grid_dropdown .mega_dropdown > li:hover > .item_link,
+#mega_main_menu.top_navigation ul li.grid_dropdown .mega_dropdown > li > .item_link:hover,
+#mega_main_menu.top_navigation ul li.grid_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#mega_main_menu.top_navigation ul li.post_type_dropdown .mega_dropdown > li > .processed_image:hover {
+    filter:none;
+}
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul li > .item_link,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul li > .item_link {
+    filter:none;
+}
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link,
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul li.current-menu-item > .item_link,
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul li:hover > .item_link,
+#mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul li > .item_link:hover,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul li.current-menu-item > .item_link,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul li:hover > .item_link,
+#mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul li > .item_link:hover {
+    filter:none;
+}
+#mega_main_menu.side_navigation > .menu_holder,
+#mega_main_menu.top_navigation > .menu_holder {
+    filter:none;
+}
+
+/*** Vertical ***/
+#leftsidebar #mega_main_menu.direction-vertical {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder {
+	background: none;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder {
+	background: none;
+}
+
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li > .item_link:after,
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li.nav_search_box:after {
+	background: none;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link {
+	background: none;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > .nav_logo > .mobile_toggle > .mobile_button,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link * {
+	color: #333333;
+}
+
+#leftsidebar #mega_main_menu.side_navigation.icons-left > .menu_holder > .menu_inner > ul > li > .item_link > i,
+#leftsidebar #mega_main_menu.side_navigation.icons-right > .menu_holder > .menu_inner > ul > li > .item_link > i,
+#leftsidebar #mega_main_menu.side_navigation.icons-top > .menu_holder > .menu_inner > ul > li > .item_link.menu_item_without_text > i {
+	display: inline-block;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link.disable_icon i,
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li[class*="dropdown"] .mega_dropdown > li > .item_link.disable_icon > i,
+#leftsidebar #mega_main_menu a.disable_icon > i,
+#leftsidebar #mega_main_menu.side_navigation.icons-left > .menu_holder > .menu_inner > ul > li > .item_link.disable_icon > i,
+#leftsidebar #mega_main_menu.side_navigation.icons-right > .menu_holder > .menu_inner > ul > li > .item_link.disable_icon > i,
+#leftsidebar #mega_main_menu.side_navigation.icons-top > .menu_holder > .menu_inner > ul > li > .item_link.menu_item_without_text.disable_icon > i {
+	display: none;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link > span {
+	display: inline;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link > span > span {
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	color: #333333;
+	display: inline-block;
+	font-style: normal;
+	letter-spacing: 1px;
+	line-height: 40px;
+	margin: 0;
+	position: relative;
+	text-transform: uppercase;
+	padding: 0 10px;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > .nav_logo > .logo_link,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > .nav_logo > .mobile_toggle,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link > span,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li.nav_search_box,
+#leftsidebar #mega_main_menu.side_navigation.icons-left > .menu_holder > .menu_inner > ul > li > .item_link > i,
+#leftsidebar #mega_main_menu.side_navigation.icons-right > .menu_holder > .menu_inner > ul > li > .item_link > i,
+#leftsidebar #mega_main_menu.side_navigation.icons-top > .menu_holder > .menu_inner > ul > li > .item_link.disable_icon > span,
+#leftsidebar #mega_main_menu.side_navigation.icons-top > .menu_holder > .menu_inner > ul > li > .item_link.menu_item_without_text > i {
+	line-height: inherit;
+	height: auto;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li > .item_link > span > span:after {
+	background: #EEEEEE;
+	content: "";
+	height: 1px;
+	left: 0;
+	opacity: 1;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li:last-child > .item_link > span > span:after {
+	background: none;
+}
+
+#leftsidebar #mega_main_menu.icons-left > .menu_holder > .menu_inner > ul > li > .item_link.with_icon i {
+	float: none;
+	padding-right: 0px;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.menu-item-has-children  > .item_link > span > span:before {
+	content: "\f107";
+	font-family: "FontAwesome";
+    font-style: normal;
+    position: absolute;
+    right: -10px;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown,
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown {
+    border: 1px solid #dddddd;
+}
+
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns1 > .mega_dropdown {
+	width: 250px;
+}
+
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns2 > .mega_dropdown {
+	width: 500px;
+}
+
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns3 > .mega_dropdown {
+	width: 650px;
+}
+
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns4 > .mega_dropdown {
+	width: 800px;
+}
+
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown > li {
+	padding: 10px 25px 0px;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li > .mega_dropdown {
+	margin-left: 0px;
+	margin-top: -10px;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown .mega_dropdown > li > .item_link {
+	padding: 5px 0;
+}
+
+#leftsidebar #mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li > .item_link,
+#leftsidebar #mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link,
+#leftsidebar #mega_main_menu.side_navigation ul li .mega_dropdown > li > .item_link,
+#leftsidebar #mega_main_menu.side_navigation ul li .mega_dropdown > li > .item_link .link_text,
+#leftsidebar #mega_main_menu.side_navigation ul li .mega_dropdown,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li .post_details > .post_description,
+.topnavigation #mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li > .item_link,
+.topnavigation #mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link,
+.topnavigation #mega_main_menu.top_navigation ul li .mega_dropdown > li > .item_link,
+.topnavigation #mega_main_menu.top_navigation ul li .mega_dropdown > li > .item_link .link_text,
+.topnavigation #mega_main_menu.top_navigation ul li .mega_dropdown,
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li .post_details > .post_description {
+	color : #888;
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.8em;
+	font-size: 13px;
+}
+
+
+#leftsidebar #mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li > .item_link *,
+#leftsidebar #mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link *,
+#leftsidebar #mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link *,
+.topnavigation #mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li > .item_link *,
+.topnavigation #mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link *,
+.topnavigation #mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link *  {
+	color: #777;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li .mega_dropdown li i,
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li .mega_dropdown li i {
+	line-height: 1.8em;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown > li > a > span > span,
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown > li > span > span > span,
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown > li > a > span > span,
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown > li > span > span > span {
+	color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown:hover > .mega_dropdown,
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown,
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li > .mega_dropdown {
+	padding: 10px 10px 20px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown:hover > .mega_dropdown,
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdown,
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li > .mega_dropdown {
+	padding: 20px 10px 10px;
+}
+
+
+#leftsidebar #mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li:hover > .item_link,
+#leftsidebar #mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li > .item_link:hover,
+#leftsidebar #mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+#leftsidebar #mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link:hover,
+#leftsidebar #mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+
+.topnavigation #mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li:hover > .item_link,
+.topnavigation #mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li > .item_link:hover,
+.topnavigation #mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li.current-menu-item > .item_link,
+.topnavigation #mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link:hover,
+.topnavigation #mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li.current-menu-item > .item_link
+ {
+	background: none;
+}
+
+
+#leftsidebar #mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li:hover > .item_link *,
+#leftsidebar #mega_main_menu.side_navigation ul li.default_dropdown .mega_dropdown > li.current-menu-item > .item_link *,
+#leftsidebar #mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link:hover *,
+#leftsidebar #mega_main_menu.side_navigation ul li.multicolumn_dropdown .mega_dropdown > li.current-menu-item > .item_link *,
+.topnavigation #mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li:hover > .item_link *,
+.topnavigation #mega_main_menu.top_navigation ul li.default_dropdown .mega_dropdown > li.current-menu-item > .item_link *,
+.topnavigation #mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li > .item_link:hover *,
+.topnavigation #mega_main_menu.top_navigation ul li.multicolumn_dropdown .mega_dropdown > li.current-menu-item > .item_link *  {
+	color : #333;
+}
+
+
+#leftsidebar #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li > .mega_dropdown:before {
+  border-color: rgba(0,0,0,0) #DDD rgba(0,0,0,0) rgba(0,0,0,0);
+  border-style: solid;
+  border-width: 12px;
+  content: " ";
+  left: -24px;
+  position: absolute;
+  top: 15px;
+}
+
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li:hover > .item_link > span > span,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li.current-menu-parent > .item_link > span > span,
+#leftsidebar #mega_main_menu.side_navigation > .menu_holder > .menu_inner > ul > li.current_page_item > .item_link > span > span {
+	color: #cd9a66;
+}
+
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.drop_to_center > .mega_dropdown,
+#leftsidebar #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.drop_to_left > .mega_dropdown {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	right: auto;
+}
+
+/*** Horizontal ***/
+.topnavigation #mega_main_menu.top_navigation {
+	float: right;
+	min-height: inherit;
+}
+
+.topnavigation #mega_main_menu.top_navigation > .menu_holder {
+	background: none;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul {
+	z-index: auto;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.submenu_full_width > .mega_dropdown {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+
+.topnavigation #mega_main_menu.direction-horizontal > .menu_holder > .menu_inner > ul > li > .item_link:after,
+.topnavigation #mega_main_menu.direction-horizontal > .menu_holder > .menu_inner > ul > li:last-child > .item_link:before {
+	background: none;
+}
+
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link {
+	background: none;
+}
+
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > .nav_logo > .mobile_toggle > .mobile_button,
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link,
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link * {
+	color: #444;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li {
+	line-height: 60px;
+	position: relative;
+	-webkit-transition: ease all 0.5s;
+	-moz-transition: ease all 0.5s;
+	transition: ease all 0.5s;
+	outline: none;
+}
+
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > .nav_logo > .logo_link,
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > .nav_logo > .mobile_toggle,
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link,
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li > .item_link > span,
+.topnavigation #mega_main_menu.top_navigation > .menu_holder > .menu_inner > ul > li.nav_search_box,
+.topnavigation #mega_main_menu.top_navigation.icons-left > .menu_holder > .menu_inner > ul > li > .item_link > i,
+.topnavigation #mega_main_menu.top_navigation.icons-right > .menu_holder > .menu_inner > ul > li > .item_link > i,
+.topnavigation #mega_main_menu.top_navigation.icons-top > .menu_holder > .menu_inner > ul > li > .item_link.disable_icon > span,
+.topnavigation #mega_main_menu.top_navigation.icons-top > .menu_holder > .menu_inner > ul > li > .item_link.menu_item_without_text > i {
+	line-height: 60px;
+	height: 60px;
+}
+
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > .mega_dropdow {
+	transform:  translate3d(0, 0, 0);
+  	-ms-transform : translate3d(0, 0, 0);
+  	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns1 > .mega_dropdown {
+	width: 250px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns2 > .mega_dropdown {
+	width: 450px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns3 > .mega_dropdown {
+	width: 650px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown.columns4 > .mega_dropdown {
+	width: 850px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li > .mega_dropdown {
+	margin-top: 0px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li > .mega_dropdown:before {
+	border-color: rgba(0,0,0,0) rgba(0,0,0,0) #b3b3b3 rgba(0,0,0,0);
+  	border-style: solid;
+  	border-width: 10px;
+  	content: " ";
+  	position: absolute;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.drop_to_right > .mega_dropdown:before {
+	left: 20px;
+  	top: -20px;
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li.drop_to_left > .mega_dropdown:before {
+	right: 20px;
+  	top: -24px;
+}
+
+.multicolumn_dropdown ul.mega_dropdown {
+    background-color: rgba(255,255,255,0);
+}
+
+#mega_main_menu #mega_main_menu_ul > li > ul {
+    background-color: #fff;
+}
+
+#mega_main_menu > .menu_holder > .menu_inner > ul > li.default_dropdown > ul, #mega_main_menu > .menu_holder > .menu_inner > ul > li.default_dropdown li > ul, #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown > ul, #mega_main_menu > .menu_holder > .menu_inner > ul > li.widgets_dropdown > ul, #mega_main_menu > .menu_holder > .menu_inner > ul > li.post_type_dropdown > ul, #mega_main_menu > .menu_holder > .menu_inner > ul > li.grid_dropdown > ul, #mega_main_menu > .menu_holder > .menu_inner > ul > li.post_type_dropdown .mega_dropdown > li.post_item:hover .post_details, #mega_main_menu > .menu_holder > .menu_inner > ul > li.grid_dropdown .mega_dropdown > li:hover .post_details {
+	-webkit-box-shadow: 0px 4px 13px -3px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 4px 13px -3px rgba(0,0,0,0.4);
+	-ms-box-shadow: 0px 4px 13px -3px rgba(0,0,0,0.4);
+	-o-box-shadow: 0px 4px 13px -3px rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 13px -3px rgba(0,0,0,0.4);
+}
+
+.topnavigation #mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link .link_text {
+    top: 0;
+}

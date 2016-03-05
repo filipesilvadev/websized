@@ -1,0 +1,10 @@
+<div class="jeg-meta-tab">
+	<div class="jeg-tab">
+		<?php echo $key; ?>
+		<?php echo $content; ?>		
+	</div>
+	<!-- default portfolio will be gallery **/  -->
+	<?php echo jeg_create_metabox_nonce('j_portfolio_media'); ?>
+	<input type="hidden" value="<?php echo $portfoliomedia; ?>" name="<?php echo j_name('portfolio_media') ?>" id="<?php echo j_name('portfolio_media') ?>" />	
+</div>
+	

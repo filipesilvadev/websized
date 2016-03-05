@@ -1,0 +1,95 @@
+<div class="meta-option" data-type='imagelist'>		
+	<h4 class="setting-title"><?php echo $title ?> :</h4>
+	
+	<div class="meta-imagelist">
+		
+		
+		<!-- image result -->
+		<div class="imageresult">
+			<div class="imageresult-inner">
+				<?php 
+					if(isset($default)) {						
+						$value = json_decode($default);
+						if(!empty($value)) {
+							foreach($value as $val) {
+								$img = wp_get_attachment_image_src($val->id, 'thumbnail');
+				?>
+				<div class="imageresult-list">
+					<div class="imageresult-header">						
+						<img class="imageresult-header-thumb" src="<?php echo $img[0]; ?>"/>										
+						<a class="imageresult-header-toogle" href="#">show</a>
+						<a class="imageresult-header-delete" href="#">delete</a>		
+						<div class="imageresult-header-title"><?php echo $val->title; ?></div> 						
+					</div>
+					<div class="imageresult-body">
+						<table>
+							<tr>
+								<td><img src="<?php echo $img[0]; ?>"/></td>
+								<td class="imgresult-body-desc">
+									<input name="image-id" type="hidden" value="<?php echo $val->id; ?>">
+									<h4>Title</h4>
+									<input name="image-title" type="text" value="<?php echo $val->title; ?>">
+									<h4>Extra Description</h4>
+									<textarea name="image-desc" rows="5" style="width: 100%;"><?php echo $val->desc; ?></textarea>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<?php 
+							}
+						}
+					}
+				?>
+			</div>
+		</div>
+		<!-- image result end -->
+		
+		
+		<!-- image content -->
+		<div class="imagecontent">
+			<div class="imageselect">
+				<h4 style="margin-left: 20px">Select Image : </h4>
+				<div class="btn imgbtnuploader">Upload Image</div>
+			</div>
+			<div class="imagecontent-inner">
+			<?php echo $imagelist; ?>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- image content -->
+		
+		
+		<!-- image grid clone -->
+		<div class="imggridclone">
+			<div class="imageresult-list">
+				<div class="imageresult-header">						
+					<img class="imageresult-header-thumb" src=""/>
+					<a class="imageresult-header-toogle" href="#">show</a>
+					<a class="imageresult-header-delete" href="#">delete</a>
+					<div class="imageresult-header-title"></div> 						
+				</div>
+				<div class="imageresult-body">
+					<table>
+						<tr>
+							<td><img class="imageresult-body-thumb" src=""/></td>
+							<td class="imgresult-body-desc">
+								<input name="image-id" type="hidden" value="">
+								<h4>Title</h4>
+								<input name="image-title" type="text">
+								<h4>Extra Description</h4>
+								<textarea name="image-desc" rows="5" style="width: 100%;"></textarea>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- image grid clone -->		
+	</div>
+	
+	<input type="hidden" name="<?php echo $id; ?>" id="<?php echo $id; ?>" value='<?php echo $default; ?>' class="imagelistjson"/>
+	<?php echo jeg_create_metabox_nonce($id); ?>
+	
+	<span class="meta-description"><?php echo $description; ?></span>
+</div>
