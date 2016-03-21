@@ -243,7 +243,7 @@ class WC_Admin_Setup_Wizard {
 						</td>
 					</tr>
 					<tr>
-						<td class="page-name"><?php echo _x( 'My Account', 'Page title', 'woocommerce' ); ?></td>
+						<td class="page-name"><?php echo _x( 'Minha conta', 'Page title', 'woocommerce' ); ?></td>
 						<td>
 							<?php _e( 'Registered customers will be able to manage their account details and view past orders on this page.', 'woocommerce' ); ?>
 						</td>

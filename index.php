@@ -1,4 +1,8 @@
 <?php
+
+include('mobile_device_detect.php');
+mobile_device_detect(true,true,true,true,true,true,'http://filipesilva.co',false);
+
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.

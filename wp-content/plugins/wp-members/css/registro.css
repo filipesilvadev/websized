@@ -1,0 +1,11 @@
+.blog-normal-article .meta-top{
+	display:none;
+}
+
+.blog-normal-article .article-header h2{
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-size: 40px;
+}
